@@ -7,7 +7,7 @@ import datetime
 bot = commands.Bot(command_prefix='!')
 
 # API key for Rocket League API
-api_key = "YOUR_API_KEY_HERE"
+api_key = "API_KEY_HERE"
 
 # Dictionary to match ranks to roles
 ranks = {
@@ -52,4 +52,4 @@ async def get_rank(ctx, platform, player_name):
     next_rank_date = datetime.datetime.now() + datetime.timedelta(days=7)
     await ctx.author.send(f'You got ranked successfully! Next possible ranking: {next_rank_date}')
 
-bot.run('YOUR_BOT_TOKEN_HERE')
+bot.run('BOT_TOKEN_HERE')

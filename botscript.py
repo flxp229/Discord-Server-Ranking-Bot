@@ -32,7 +32,7 @@ ranks = {
     "Grand Champion I": "Rocket League - Grand Champion",
     "Grand Champion II": "Rocket League - Grand Champion",
     "Grand Champion III": "Rocket League - Grand Champion",
-    "Supersonic Legend": "Rocket League - Supersonic Legend"
+    "Supersonic Legend": "Super Sonic Legend"
 }
 
 @bot.command(name='getRank', help='Get your Rocket League 2v2 rank')

@@ -50,6 +50,6 @@ async def get_rank(ctx, platform, player_name):
     await ctx.author.add_roles(role)
     # Send private message with next possible ranking date
     next_rank_date = datetime.datetime.now() + datetime.timedelta(days=7)
-    await ctx.author.send(f'You got ranked successfully! Next possible ranking: {next_rank_date}')
+    await ctx.author.send(f'You got ranked successfully! Your new rank is: {rank} Next possible ranking: {next_rank_date}')
 
 bot.run('BOT_TOKEN_HERE')
